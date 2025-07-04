@@ -1,5 +1,5 @@
 <h1> Hello!</h1>
-I'm Felix, a Software Developer in the making.
+I'm Felix, a Web & Martech Developer.
 
 <h2>My Projects</h2>
 
