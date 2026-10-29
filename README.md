@@ -20,7 +20,7 @@
 <p align="center">
   <img alt="Server-side GTM" src="https://img.shields.io/badge/Tracking-sGTM-2563eb?style=flat-square&labelColor=18181b">
   <img alt="BigQuery" src="https://img.shields.io/badge/Data-BigQuery-2563eb?style=flat-square&labelColor=18181b">
-  <img alt="Next.js" src="https://img.shields.io/badge/Web-Next.js-2563eb?style=flat-square&labelColor=18181b">
+  <img alt="JavaScript" src="https://img.shields.io/badge/Web-JavaScript-2563eb?style=flat-square&labelColor=18181b">
   <img alt="n8n" src="https://img.shields.io/badge/Automation-n8n-2563eb?style=flat-square&labelColor=18181b">
   <img alt="Custom agents" src="https://img.shields.io/badge/AI-Custom_Agents-2563eb?style=flat-square&labelColor=18181b">
 </p>
@@ -94,7 +94,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 <summary><strong>How I can help</strong> &nbsp;<sub>five disciplines</sub></summary>
 
 - **Measurement engineering.** Server-side tracking, first-party routing, Conversions APIs, consent configuration, warehouse pipelines.
-- **Web development.** Next.js, React, and WordPress builds with performance, technical SEO, and form flows designed in.
+- **Web development.** WordPress and custom front-end builds with performance, technical SEO, and form flows designed in.
 - **RevOps.** CRM architecture, lifecycle stages, lead routing, data hygiene, offline conversion joins, revenue reporting.
 - **AI and automation.** Custom agents for audit and triage, n8n workflows, LLM pipelines wired to real APIs.
 - **Consulting.** Discovery, audits with written findings, roadmaps, standards ownership, and team training.
@@ -108,7 +108,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 | --- | --- |
 | Revenue marketing agency site | Multi-service site with CAPI, CRM integrations, and analytics from the start |
 | Diaspora community platform | Pre-launch platform with 6 content pillars and 500+ early sign-ups |
-| Small business rebuilds | WordPress and Next.js rebuilds with measurement designed in before launch |
+| Small business rebuilds | WordPress and custom front-end rebuilds with measurement designed in before launch |
 
 </details>
 
@@ -129,8 +129,8 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 <details>
 <summary><strong>Web development</strong></summary>
 
-- Next.js, React, TypeScript, JavaScript
-- WordPress, PHP, Tailwind CSS, HTML
+- TypeScript, JavaScript, HTML, CSS
+- WordPress, PHP, Tailwind CSS
 - Technical SEO, Core Web Vitals, structured data
 - Booking, form, and payment flows
 - Accessibility and responsive layout
