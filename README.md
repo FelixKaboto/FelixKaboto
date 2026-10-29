@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+  <sub><strong>7+ years</strong> across measurement, web, and RevOps &middot; <strong>100+</strong> client accounts &middot; <strong>15 to 30%</strong> of lost conversions recovered &middot; audits cut from <strong>3 days to 2</strong></sub>
+</p>
+
+<p align="center">
   <img alt="Server-side GTM" src="https://img.shields.io/badge/Tracking-sGTM-2563eb?style=flat-square&labelColor=18181b">
   <img alt="BigQuery" src="https://img.shields.io/badge/Data-BigQuery-2563eb?style=flat-square&labelColor=18181b">
   <img alt="Next.js" src="https://img.shields.io/badge/Web-Next.js-2563eb?style=flat-square&labelColor=18181b">
@@ -49,22 +53,11 @@ flowchart LR
 | Work | What I did | Result |
 | --- | --- | --- |
 | **[Recovering lost conversions](https://felixkaboto.dev/case-studies/server-side-tracking-migration)**<br>E-commerce and lead generation | Moved delivery server-side on GCP with first-party routing and cross-platform Conversions APIs | 15 to 30% of lost conversions recovered per client |
-| **[Audit time from 3 days to 2 days](https://felixkaboto.dev/case-studies/ai-audit-agent)**<br>Internal tooling at a US agency | Broke audits into repeatable checks, drafted reports with an LLM over raw API data | Cycle cut by a third, and gaps manual review missed now surface |
+| **[Audit time from 3 days to 2 days](https://felixkaboto.dev/case-studies/ai-audit-agent)**<br>Internal tooling at a US agency | Broke audits into repeatable checks, drafted reports with an LLM over raw API data | Senior audit cycle cut by a third, and gaps manual review missed now surface |
 | **[Audience from 45K to 100K](https://felixkaboto.dev/case-studies/mama-money-growth)**<br>African fintech remittance | Ran acquisition and lifecycle campaigns, built UTM and creator attribution | 122% growth, with channel ROI visible for the first time |
 | **Bookings up 40%**<br>A coaching business | Rebuilt templates, tightened performance and technical SEO, fixed the booking path | 40% more bookings, and the owner can edit the site without me |
 
-Four write-ups, with stack and the mistakes, are on the **[case studies index](https://felixkaboto.dev/case-studies)**.
-
----
-
-## Impact
-
-| Metric | Value | What it means |
-| --- | --- | --- |
-| Conversions recovered | 15 to 30% | Lost tracking restored through server-side migrations |
-| Audit speed | ~33% faster | Agent cut audits from 3 days to 2 days |
-| Triage saved | ~20 hrs/month | Prioritization agent replaced manual work ranking |
-| Client accounts | 100+ | End-to-end analytics and web engagements |
+Full write-ups, including stack and trade-offs: **[case studies](https://felixkaboto.dev/case-studies)**.
 
 ---
 
@@ -90,11 +83,11 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 
 **How they are bounded.** Rule-based checks run before any model sees data. The model reads raw API output and drafts a report; it never writes to a production container. Every output gets human sign-off. I tuned precision against real false positives for about a month, and the first version with too many checks at once was worse than the manual process it replaced.
 
-> Audits used to take three days of senior time. The agent runs the checks, drafts the report, and a technologist reviews it in two hours.
+> Audits used to take three days of senior time. The agent runs the checks and drafts the report, so a technologist spends a day reviewing findings instead of building them from scratch.
 
 ---
 
-## What I work on
+## How I can help
 
 - **Measurement engineering.** Server-side tracking, first-party routing, Conversions APIs, consent configuration, warehouse pipelines.
 - **Web development.** Next.js, React, and WordPress builds with performance, technical SEO, and form flows designed in.
