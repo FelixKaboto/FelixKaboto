@@ -33,7 +33,8 @@
 
 ## Work
 
-### Selected work
+<details>
+<summary><strong>Selected work</strong> &nbsp;<sub>four engagements</sub></summary>
 
 | Work | What I did | Result |
 | :--- | :--- | ---: |
@@ -44,10 +45,10 @@
 
 Full write-ups, including stack and trade-offs: **[case studies](https://felixkaboto.dev/case-studies)**.
 
-### Side builds
+</details>
 
 <details>
-<summary><strong>Three projects</strong> &nbsp;<sub>agency, community, and small business</sub></summary>
+<summary><strong>Side builds</strong> &nbsp;<sub>three projects</sub></summary>
 
 | Build | What it involved |
 | :--- | :--- |
