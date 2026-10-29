@@ -129,8 +129,8 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 <details>
 <summary><strong>Web development</strong></summary>
 
-- Next.js, React, TypeScript
-- WordPress, PHP, Tailwind CSS
+- Next.js, React, TypeScript, JavaScript
+- WordPress, PHP, Tailwind CSS, HTML
 - Technical SEO, Core Web Vitals, structured data
 - Booking, form, and payment flows
 - Accessibility and responsive layout
@@ -150,7 +150,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 <details>
 <summary><strong>Data and RevOps</strong></summary>
 
-- BigQuery, SQL, ELT pipelines
+- BigQuery, SQL, ELT pipelines, Python
 - Salesforce, HubSpot, Marketo: CRM architecture and lifecycle stages
 - Lead routing, data hygiene rules, offline conversion sync
 - Identity matching and attribution modelling
