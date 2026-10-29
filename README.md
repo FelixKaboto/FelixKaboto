@@ -29,7 +29,8 @@
 
 ---
 
-## Selected work
+<details>
+<summary><strong>Selected work</strong> &nbsp;<sub>four engagements, each linking to the full write-up</sub></summary>
 
 | Work | What I did | Result |
 | --- | --- | --- |
@@ -39,6 +40,8 @@
 | **Bookings up 40%**<br>A coaching business | Rebuilt templates, tightened performance and technical SEO, fixed the booking path | 40% more bookings, and the owner can edit the site without me |
 
 Full write-ups, including stack and trade-offs: **[case studies](https://felixkaboto.dev/case-studies)**.
+
+</details>
 
 ---
 
