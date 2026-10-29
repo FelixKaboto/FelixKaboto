@@ -27,12 +27,13 @@
   <img alt="Custom agents" src="https://img.shields.io/badge/AI-Custom_Agents-2563eb?style=flat-square&labelColor=18181b">
 </p>
 
----
+<p align="center">
+  <sub><a href="#work">Work</a> &nbsp;&middot;&nbsp; <a href="#capabilities">Capabilities</a> &nbsp;&middot;&nbsp; <a href="#profile">Profile</a> &nbsp;&middot;&nbsp; <a href="#lets-talk">Contact</a></sub>
+</p>
 
-<p><sub><strong>WORK</strong></sub></p>
+## Work
 
-<details>
-<summary><strong>Selected work</strong> &nbsp;<sub>four engagements</sub></summary>
+### Selected work
 
 | Work | What I did | Result |
 | :--- | :--- | ---: |
@@ -43,10 +44,10 @@
 
 Full write-ups, including stack and trade-offs: **[case studies](https://felixkaboto.dev/case-studies)**.
 
-</details>
+### Side builds
 
 <details>
-<summary><strong>Side builds</strong> &nbsp;<sub>three projects</sub></summary>
+<summary><strong>Three projects</strong> &nbsp;<sub>agency, community, and small business</sub></summary>
 
 | Build | What it involved |
 | :--- | :--- |
@@ -56,9 +57,7 @@ Full write-ups, including stack and trade-offs: **[case studies](https://felixka
 
 </details>
 
----
-
-<p><sub><strong>CAPABILITIES</strong></sub></p>
+## Capabilities
 
 <details>
 <summary><strong>Architecture</strong> &nbsp;<sub>pipeline diagram</sub></summary>
@@ -159,9 +158,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 
 </details>
 
----
-
-<p><sub><strong>PROFILE</strong></sub></p>
+## Profile
 
 <details>
 <summary><strong>Background</strong> &nbsp;<sub>tenure and credentials</sub></summary>
