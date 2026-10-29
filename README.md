@@ -6,15 +6,17 @@
 </p>
 
 <p align="center">
-  <a href="https://felixkaboto.dev">Portfolio</a> &middot;
-  <a href="https://felixkaboto.dev/case-studies">Case studies</a> &middot;
-  <a href="https://felixkaboto.dev/assets/felix-kaboto-cv.pdf">CV</a> &middot;
-  <a href="https://www.linkedin.com/in/felix-kaboto">LinkedIn</a> &middot;
+  <a href="https://felixkaboto.dev">Portfolio</a> &nbsp;&middot;&nbsp;
+  <a href="https://felixkaboto.dev/case-studies">Case studies</a> &nbsp;&middot;&nbsp;
+  <a href="https://felixkaboto.dev/assets/felix-kaboto-cv.pdf">CV</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/felix-kaboto">LinkedIn</a> &nbsp;&middot;&nbsp;
   <a href="mailto:felixkayz001@gmail.com">Email</a>
 </p>
 
+> I work on the systems a business runs on, from the site that turns a visitor into a lead, to the tracking that proves the lead was worth having, to the agent that audits all of it while I sleep.
+
 <p align="center">
-  <sub><strong>7+ years</strong> across measurement, web, and RevOps &middot; <strong>100+</strong> client accounts &middot; <strong>15 to 30%</strong> of lost conversions recovered &middot; audits cut from <strong>3 days to 2</strong></sub>
+  <sub><strong>7+ years</strong> across measurement, web, and RevOps &nbsp;&middot;&nbsp; <strong>100+</strong> client accounts &nbsp;&middot;&nbsp; <strong>15 to 30%</strong> of lost conversions recovered &nbsp;&middot;&nbsp; audits cut from <strong>3 days to 2</strong></sub>
 </p>
 
 <p align="center">
@@ -25,28 +27,41 @@
   <img alt="Custom agents" src="https://img.shields.io/badge/AI-Custom_Agents-2563eb?style=flat-square&labelColor=18181b">
 </p>
 
-> I work on the systems a business runs on, from the site that turns a visitor into a lead, to the tracking that proves the lead was worth having, to the agent that audits all of it while I sleep.
-
 ---
 
+<p><sub><strong>WORK</strong></sub></p>
+
 <details>
-<summary><strong>Selected work</strong> &nbsp;<sub>four engagements, each linking to the full write-up</sub></summary>
+<summary><strong>Selected work</strong> &nbsp;<sub>four engagements</sub></summary>
 
 | Work | What I did | Result |
-| --- | --- | --- |
-| **[Recovering lost conversions](https://felixkaboto.dev/case-studies/server-side-tracking-migration)**<br>E-commerce and lead generation | Moved delivery server-side on GCP with first-party routing and cross-platform Conversions APIs | 15 to 30% of lost conversions recovered per client |
-| **[Audit time from 3 days to 2 days](https://felixkaboto.dev/case-studies/ai-audit-agent)**<br>Internal tooling at a US agency | Broke audits into repeatable checks, drafted reports with an LLM over raw API data | Senior audit cycle cut by a third, and gaps manual review missed now surface |
-| **[Audience from 45K to 100K](https://felixkaboto.dev/case-studies/mama-money-growth)**<br>African fintech remittance | Ran acquisition and lifecycle campaigns, built UTM and creator attribution | 122% growth, with channel ROI visible for the first time |
-| **Bookings up 40%**<br>A coaching business | Rebuilt templates, tightened performance and technical SEO, fixed the booking path | 40% more bookings, and the owner can edit the site without me |
+| :--- | :--- | ---: |
+| **[Recovering lost conversions](https://felixkaboto.dev/case-studies/server-side-tracking-migration)**<br><sub>E-commerce and lead generation</sub> | Moved delivery server-side on GCP with first-party routing and cross-platform Conversions APIs | 15 to 30% of lost conversions recovered per client |
+| **[Audit time from 3 days to 2 days](https://felixkaboto.dev/case-studies/ai-audit-agent)**<br><sub>Internal tooling at a US agency</sub> | Broke audits into repeatable checks, drafted reports with an LLM over raw API data | Senior audit cycle cut by a third, and gaps manual review missed now surface |
+| **[Audience from 45K to 100K](https://felixkaboto.dev/case-studies/mama-money-growth)**<br><sub>African fintech remittance</sub> | Ran acquisition and lifecycle campaigns, built UTM and creator attribution | 122% growth, with channel ROI visible for the first time |
+| **Bookings up 40%**<br><sub>A coaching business</sub> | Rebuilt templates, tightened performance and technical SEO, fixed the booking path | 40% more bookings, and the owner can edit the site without me |
 
 Full write-ups, including stack and trade-offs: **[case studies](https://felixkaboto.dev/case-studies)**.
 
 </details>
 
+<details>
+<summary><strong>Side builds</strong> &nbsp;<sub>three projects</sub></summary>
+
+| Build | What it involved |
+| :--- | :--- |
+| Revenue marketing agency site | Multi-service site with CAPI, CRM integrations, and analytics from the start |
+| Diaspora community platform | Pre-launch platform with 6 content pillars and 500+ early sign-ups |
+| Small business rebuilds | WordPress and custom front-end rebuilds with measurement designed in before launch |
+
+</details>
+
 ---
 
+<p><sub><strong>CAPABILITIES</strong></sub></p>
+
 <details>
-<summary><strong>How the pieces connect</strong> &nbsp;<sub>architecture diagram</sub></summary>
+<summary><strong>Architecture</strong> &nbsp;<sub>pipeline diagram</sub></summary>
 
 Events leave the browser once, pass through a controlled server-side container, then fan out to ad platforms, analytics, and a warehouse. Consent state travels with them, so every destination only receives what it is allowed to.
 
@@ -64,7 +79,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>AI, automation, and custom agents</strong> &nbsp;<sub>agents, guardrails, results</sub></summary>
+<summary><strong>AI systems</strong> &nbsp;<sub>agents and guardrails</sub></summary>
 
 The agents handle work that is repetitive, checkable, and easy to get subtly wrong. They do not replace judgment on the review side.
 
@@ -91,7 +106,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 </details>
 
 <details>
-<summary><strong>How I can help</strong> &nbsp;<sub>five disciplines</sub></summary>
+<summary><strong>Services</strong> &nbsp;<sub>five disciplines</sub></summary>
 
 - **Measurement engineering.** Server-side tracking, first-party routing, Conversions APIs, consent configuration, warehouse pipelines.
 - **Web development.** WordPress and custom front-end builds with performance, technical SEO, and form flows designed in.
@@ -102,21 +117,9 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 </details>
 
 <details>
-<summary><strong>Web work and side builds</strong> &nbsp;<sub>freelance and personal</sub></summary>
+<summary><strong>Tech stack</strong> &nbsp;<sub>grouped by domain</sub></summary>
 
-| Build | What it involved |
-| --- | --- |
-| Revenue marketing agency site | Multi-service site with CAPI, CRM integrations, and analytics from the start |
-| Diaspora community platform | Pre-launch platform with 6 content pillars and 500+ early sign-ups |
-| Small business rebuilds | WordPress and custom front-end rebuilds with measurement designed in before launch |
-
-</details>
-
-<details>
-<summary><strong>What I work with</strong> &nbsp;<sub>full stack and tools</sub></summary>
-
-<details>
-<summary><strong>Measurement and cloud</strong></summary>
+**Measurement and cloud**
 
 - Server-Side GTM on Google Cloud Platform
 - GA4, Google Tag Manager, data layer frameworks
@@ -124,10 +127,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 - Custom ecommerce, cross-domain, and multi-domain tracking
 - App analytics and mobile measurement partners
 
-</details>
-
-<details>
-<summary><strong>Web development</strong></summary>
+**Web development**
 
 - TypeScript, JavaScript, HTML, CSS
 - WordPress, PHP, Tailwind CSS
@@ -135,20 +135,14 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 - Booking, form, and payment flows
 - Accessibility and responsive layout
 
-</details>
-
-<details>
-<summary><strong>AI and automation</strong></summary>
+**AI and automation**
 
 - Custom agents for audit, triage, and monitoring
 - LLM pipelines with focused prompts over real API data
 - n8n and Zapier workflow automation
 - REST APIs and custom webhooks
 
-</details>
-
-<details>
-<summary><strong>Data and RevOps</strong></summary>
+**Data and RevOps**
 
 - BigQuery, SQL, ELT pipelines, Python
 - Salesforce, HubSpot, Marketo: CRM architecture and lifecycle stages
@@ -156,10 +150,7 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 - Identity matching and attribution modelling
 - Looker Studio dashboards for revenue reporting
 
-</details>
-
-<details>
-<summary><strong>Privacy, marketing, and consulting</strong></summary>
+**Privacy, marketing, and consulting**
 
 - Advanced Consent Mode v2, GDPR and POPIA aligned setups
 - SEO, PPC, paid social, email automation
@@ -168,10 +159,12 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 
 </details>
 
-</details>
+---
+
+<p><sub><strong>PROFILE</strong></sub></p>
 
 <details>
-<summary><strong>Background and certifications</strong> &nbsp;<sub>tenure, remote setup, credentials</sub></summary>
+<summary><strong>Background</strong> &nbsp;<sub>tenure and credentials</sub></summary>
 
 Seven years across web development, MarTech, digital marketing, and revenue operations. I lead analytics engagements for enterprise clients at a US digital agency, fully remote from South Africa for four years, overlapping Cape Town mornings with US East Coast hours. I mentor four technologists and own the technical standards for tracking and data quality.
 
@@ -179,10 +172,15 @@ Seven years across web development, MarTech, digital marketing, and revenue oper
 
 </details>
 
----
-
 ## Let's talk
 
-A rebuild, a migration, a process nobody trusts, or a repetitive job that should have been automated last year. Start with the **[portfolio](https://felixkaboto.dev)** or the **[case studies](https://felixkaboto.dev/case-studies)**, then reach me at [felixkayz001@gmail.com](mailto:felixkayz001@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/felix-kaboto).
+A rebuild, a migration, a process nobody trusts, or a repetitive job that should have been automated last year. Start with the portfolio or the case studies, then reach me by email or on LinkedIn.
+
+<p align="center">
+  <a href="https://felixkaboto.dev">Portfolio</a> &nbsp;&middot;&nbsp;
+  <a href="https://felixkaboto.dev/case-studies">Case studies</a> &nbsp;&middot;&nbsp;
+  <a href="mailto:felixkayz001@gmail.com">Email</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/felix-kaboto">LinkedIn</a>
+</p>
 
 <p align="center"><sub>Last updated October 2026</sub></p>
