@@ -25,26 +25,7 @@
   <img alt="Custom agents" src="https://img.shields.io/badge/AI-Custom_Agents-2563eb?style=flat-square&labelColor=18181b">
 </p>
 
----
-
 > I work on the systems a business runs on, from the site that turns a visitor into a lead, to the tracking that proves the lead was worth having, to the agent that audits all of it while I sleep.
-
----
-
-## How the pieces connect
-
-Events leave the browser once, pass through a controlled server-side container, then fan out to ad platforms, analytics, and a warehouse. Consent state travels with them, so every destination only receives what it is allowed to.
-
-```mermaid
-flowchart LR
-  browser["Browser and data layer"] --> sgtm["Server-side GTM on GCP"]
-  consent["Consent Mode v2"] --> sgtm
-  sgtm --> capi["Conversions APIs"]
-  sgtm --> ga4["GA4"]
-  sgtm --> bq["BigQuery"]
-  bq --> crm["CRM and offline sync"]
-  bq --> dash["Looker Studio"]
-```
 
 ---
 
@@ -61,7 +42,26 @@ Full write-ups, including stack and trade-offs: **[case studies](https://felixka
 
 ---
 
-## AI, automation, and custom agents
+<details>
+<summary><strong>How the pieces connect</strong> &nbsp;<sub>architecture diagram</sub></summary>
+
+Events leave the browser once, pass through a controlled server-side container, then fan out to ad platforms, analytics, and a warehouse. Consent state travels with them, so every destination only receives what it is allowed to.
+
+```mermaid
+flowchart LR
+  browser["Browser and data layer"] --> sgtm["Server-side GTM on GCP"]
+  consent["Consent Mode v2"] --> sgtm
+  sgtm --> capi["Conversions APIs"]
+  sgtm --> ga4["GA4"]
+  sgtm --> bq["BigQuery"]
+  bq --> crm["CRM and offline sync"]
+  bq --> dash["Looker Studio"]
+```
+
+</details>
+
+<details>
+<summary><strong>AI, automation, and custom agents</strong> &nbsp;<sub>agents, guardrails, results</sub></summary>
 
 The agents handle work that is repetitive, checkable, and easy to get subtly wrong. They do not replace judgment on the review side.
 
@@ -85,9 +85,10 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 
 > Audits used to take three days of senior time. The agent runs the checks and drafts the report, so a technologist spends a day reviewing findings instead of building them from scratch.
 
----
+</details>
 
-## How I can help
+<details>
+<summary><strong>How I can help</strong> &nbsp;<sub>five disciplines</sub></summary>
 
 - **Measurement engineering.** Server-side tracking, first-party routing, Conversions APIs, consent configuration, warehouse pipelines.
 - **Web development.** Next.js, React, and WordPress builds with performance, technical SEO, and form flows designed in.
@@ -95,9 +96,10 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 - **AI and automation.** Custom agents for audit and triage, n8n workflows, LLM pipelines wired to real APIs.
 - **Consulting.** Discovery, audits with written findings, roadmaps, standards ownership, and team training.
 
----
+</details>
 
-## Web work and side builds
+<details>
+<summary><strong>Web work and side builds</strong> &nbsp;<sub>freelance and personal</sub></summary>
 
 | Build | What it involved |
 | --- | --- |
@@ -105,9 +107,10 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 | Diaspora community platform | Pre-launch platform with 6 content pillars and 500+ early sign-ups |
 | Small business rebuilds | WordPress and Next.js rebuilds with measurement designed in before launch |
 
----
+</details>
 
-## What I work with
+<details>
+<summary><strong>What I work with</strong> &nbsp;<sub>full stack and tools</sub></summary>
 
 <details>
 <summary><strong>Measurement and cloud</strong></summary>
@@ -162,13 +165,16 @@ Automation around them: offline conversion sync back to ad platforms, lead routi
 
 </details>
 
----
+</details>
 
-## Background
+<details>
+<summary><strong>Background and certifications</strong> &nbsp;<sub>tenure, remote setup, credentials</sub></summary>
 
 Seven years across web development, MarTech, digital marketing, and revenue operations. I lead analytics engagements for enterprise clients at a US digital agency, fully remote from South Africa for four years, overlapping Cape Town mornings with US East Coast hours. I mentor four technologists and own the technical standards for tracking and data quality.
 
 **Certifications:** Google Analytics Individual Qualification, Advanced Google Analytics, Google Ads, Looker Studio, HubSpot Data Integrations, Meta Social Media Marketing Professional.
+
+</details>
 
 ---
 

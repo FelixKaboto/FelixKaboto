@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-labelledby="bannerTitle bannerDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="880" height="140" role="img" aria-labelledby="bannerTitle bannerDesc">
   <title id="bannerTitle">Felix Kaboto</title>
   <desc id="bannerDesc">MarTech engineer, web developer, and RevOps consultant. Builds tracking, websites, automations, and custom AI agents.</desc>
-  <rect width="880" height="190" fill="#ffffff"/>
-  <rect x="48" y="46" width="64" height="4" rx="2" fill="#2563eb"/>
-  <text x="48" y="106" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1.2" fill="#18181b">Felix Kaboto</text>
-  <text x="48" y="140" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#2563eb">MarTech Engineer, Web Developer, and RevOps Consultant</text>
-  <text x="48" y="166" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#71717a">Tracking, websites, automations, and custom AI agents for marketing and revenue teams</text>
+  <rect width="880" height="140" fill="#ffffff"/>
+  <rect x="48" y="34" width="56" height="4" rx="2" fill="#2563eb"/>
+  <text x="48" y="88" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1.1" fill="#18181b">Felix Kaboto</text>
+  <text x="48" y="116" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#2563eb">MarTech Engineer, Web Developer, and RevOps Consultant</text>
+  <text x="48" y="134" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#71717a">Tracking, websites, automations, and custom AI agents for marketing and revenue teams</text>
 </svg>
