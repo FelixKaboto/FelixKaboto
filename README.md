@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="Felix Kaboto, MarTech Engineer and Solutions Architect" width="880">
+    <img src="assets/banner-light.svg" alt="Felix Kaboto, MarTech engineer, web developer, and RevOps consultant" width="880">
   </picture>
 </p>
 
@@ -14,15 +14,15 @@
 
 <p align="center">
   <img alt="Server-side GTM" src="https://img.shields.io/badge/Tracking-sGTM-2563eb?style=flat-square&labelColor=18181b">
-  <img alt="BigQuery" src="https://img.shields.io/badge/Warehouse-BigQuery-2563eb?style=flat-square&labelColor=18181b">
-  <img alt="GA4" src="https://img.shields.io/badge/Analytics-GA4-2563eb?style=flat-square&labelColor=18181b">
+  <img alt="BigQuery" src="https://img.shields.io/badge/Data-BigQuery-2563eb?style=flat-square&labelColor=18181b">
+  <img alt="Next.js" src="https://img.shields.io/badge/Web-Next.js-2563eb?style=flat-square&labelColor=18181b">
   <img alt="n8n" src="https://img.shields.io/badge/Automation-n8n-2563eb?style=flat-square&labelColor=18181b">
-  <img alt="JavaScript" src="https://img.shields.io/badge/Code-JavaScript-2563eb?style=flat-square&labelColor=18181b">
+  <img alt="RevOps" src="https://img.shields.io/badge/Ops-RevOps-2563eb?style=flat-square&labelColor=18181b">
 </p>
 
 ---
 
-> I build the measurement layer underneath marketing decisions: server-side tracking that recovers conversions ad platforms lose, warehouse pipelines that make attribution auditable, and AI agents that run tracking audits in hours instead of days. Most of my work sits where privacy rules, ad platforms, and CRM data stop agreeing with each other.
+> I work on the systems a business runs on, from the site that turns a visitor into a lead to the reporting that tells leadership whether any of it worked. Some engagements are a rebuild, some are a migration, some are a strategy session that ends with a roadmap and nobody touching a server.
 
 ---
 
@@ -43,13 +43,27 @@ flowchart LR
 
 ---
 
+## Four lanes
+
+Each engagement starts in one lane and often pulls in a second. The list is deliberately distinct: no lane is a reworded version of another.
+
+| Lane | What the work looks like | What it changes |
+| --- | --- | --- |
+| **Measurement engineering** | Server-side tracking on GCP, first-party routing, Conversions APIs, consent configuration, warehouse pipelines | Ad platforms see the conversions that actually happened, and the numbers survive scrutiny |
+| **Web development** | Next.js and React builds, WordPress and PHP sites, performance work, technical SEO, booking and form flows | Pages load fast, structure stays crawlable, and forms hand clean data to the systems behind them |
+| **RevOps** | CRM architecture, lifecycle stages, lead routing, data hygiene rules, offline conversion joins, revenue reporting | Sales and marketing argue about pipeline instead of arguing about whose numbers are right |
+| **Consulting** | Discovery, tracking and process audits, roadmap and requirements work, standards ownership, team training | A written plan with priorities, owners, and a way to tell whether it worked |
+
+---
+
 ## Selected work
 
-| Sector | Problem | What I did | Result |
-| --- | --- | --- | --- |
-| Mid-market e-commerce and lead generation | 15 to 30 percent of conversions vanished from ad platforms after privacy changes, while the conversions were still happening | Moved delivery server-side on GCP, routed first-party events through custom subdomains, wired cross-platform Conversions APIs, layered Advanced Consent Mode v2, added data-quality checks | 15 to 30 percent of lost conversions recovered per client, with more accurate ROAS reporting |
-| Enterprise accounts at a US digital agency | Onboarding audits took three days of senior time and still missed gaps that surfaced weeks later | Broke audits into repeatable checks, ran each one through an LLM pipeline with focused prompts and raw API data, produced structured reports for technologist review | Audit cycle cut from 3 days to 2 days, and gaps manual review kept missing are now caught |
-| An African fintech remittance company | Needed social growth across paid, organic, and creator channels with no way to see channel-level return | Ran acquisition and lifecycle campaigns, built a UTM and event framework that measured creator ROI, coordinated on-the-ground content, protected brand accounts | Audience grew from 45K to 100K followers, 122 percent, with channel ROI visible for the first time |
+| Sector | Lane | Problem | What I did | Result |
+| --- | --- | --- | --- | --- |
+| Mid-market e-commerce and lead generation | Measurement | 15 to 30 percent of conversions vanished from ad platforms after privacy changes, while the conversions were still happening | Moved delivery server-side on GCP, routed first-party events through custom subdomains, wired cross-platform Conversions APIs, layered Advanced Consent Mode v2 | 15 to 30 percent of lost conversions recovered per client, with more accurate ROAS reporting |
+| A coaching business | Web | Site could take bookings but ranked poorly, loaded slowly, and gave the team no confidence in on-page structure | Rebuilt templates, tightened performance and technical SEO, restructured the booking path and content hierarchy | 40 percent more client bookings, and a site the owner can update without a developer |
+| Enterprise accounts at a US digital agency | Measurement, AI | Onboarding audits took three days of senior time and still missed gaps that surfaced weeks later | Broke audits into repeatable checks, ran each through an LLM pipeline with focused prompts and raw API data, required technologist sign-off | Audit cycle cut from 3 days to 2 days, and gaps manual review kept missing are now caught |
+| An African fintech remittance company | Marketing, RevOps | Needed growth across paid, organic, and creator channels with no way to see channel-level return | Ran acquisition and lifecycle campaigns, built a UTM and event framework that measured creator ROI, aligned lifecycle stages with the CRM | Audience grew from 45K to 100K followers, 122 percent, with channel ROI visible for the first time |
 
 ---
 
@@ -59,8 +73,9 @@ flowchart LR
 | --- | --- | --- |
 | Conversions recovered | 15 to 30% | Lost tracking restored through server-side migrations |
 | Audit speed | ~33% faster | Agent cut audits from 3 days to 2 days |
-| Client accounts | 100+ | End-to-end analytics engagements |
-| Experience | 7+ years | MarTech, data pipelines, and technical leadership |
+| Bookings | +40% | Rebuild plus technical SEO on a booking-led site |
+| Client accounts | 100+ | End-to-end analytics and web engagements |
+| Experience | 7+ years | Measurement, web, digital marketing, and technical leadership |
 
 ---
 
@@ -103,7 +118,7 @@ Rule-based checks run before any model sees data. The model reads raw API output
 ## What I work with
 
 <details>
-<summary><strong>Server-side and cloud analytics</strong></summary>
+<summary><strong>Measurement and cloud</strong></summary>
 
 - Server-Side GTM on Google Cloud Platform
 - GA4, Google Tag Manager, data layer frameworks
@@ -114,12 +129,24 @@ Rule-based checks run before any model sees data. The model reads raw API output
 </details>
 
 <details>
-<summary><strong>Data and pipelines</strong></summary>
+<summary><strong>Web development</strong></summary>
+
+- Next.js, React, TypeScript
+- WordPress, PHP, Tailwind CSS
+- Technical SEO, Core Web Vitals, structured data
+- Booking, form, and payment flows
+- Accessibility and responsive layout
+
+</details>
+
+<details>
+<summary><strong>Data and RevOps</strong></summary>
 
 - BigQuery, SQL, ELT pipelines
+- Salesforce, HubSpot, Marketo: CRM architecture and lifecycle stages
+- Lead routing, data hygiene rules, offline conversion sync
 - Identity matching and attribution modelling
-- Offline conversion sync and CRM joins
-- Looker Studio dashboards
+- Looker Studio dashboards for revenue reporting
 
 </details>
 
@@ -144,11 +171,13 @@ Rule-based checks run before any model sees data. The model reads raw API output
 </details>
 
 <details>
-<summary><strong>Languages and platforms</strong></summary>
+<summary><strong>Consulting and delivery</strong></summary>
 
-- JavaScript, Python, SQL, PHP, HTML and CSS
-- Salesforce, HubSpot, Marketo
-- WordPress, GitHub
+- Discovery, requirements, and solution architecture
+- Tracking and process audits with written findings
+- Roadmaps, standards, and documentation systems
+- Stakeholder communication across technical and non-technical teams
+- Mentoring and team enablement
 
 </details>
 
@@ -156,7 +185,7 @@ Rule-based checks run before any model sees data. The model reads raw API output
 
 ## Background
 
-Seven years across MarTech, web development, and digital marketing. Currently leading analytics engagements for enterprise clients at a US digital agency, fully remote from South Africa for four years, overlapping Cape Town mornings with US East Coast hours. I mentor four technologists and own the technical standards for tracking and data quality.
+Seven years across web development, MarTech, digital marketing, and revenue operations. Started building sites, moved into measurement and marketing systems, and now lead analytics engagements for enterprise clients at a US digital agency while taking on web and consulting work directly. Fully remote from South Africa for four years, overlapping Cape Town mornings with US East Coast hours. I mentor four technologists and own the technical standards for tracking and data quality.
 
 **Certifications:** Google Analytics Individual Qualification, Advanced Google Analytics, Google Ads, Looker Studio, HubSpot Data Integrations, Meta Social Media Marketing Professional.
 
@@ -164,7 +193,7 @@ Seven years across MarTech, web development, and digital marketing. Currently le
 
 ## Let's talk
 
-If you are dealing with a tracking migration, an attribution gap, or a consent setup that needs to survive an audit, the fastest route is my portfolio: **[felixkaboto.dev](https://felixkaboto.dev)**
+Four things I get asked about most: a rebuild, a migration, a process nobody trusts, or a plan that needs a second opinion. Fastest route is my portfolio: **[felixkaboto.dev](https://felixkaboto.dev)**
 
 Or reach me directly at [felixkaboto@gmail.com](mailto:felixkaboto@gmail.com), or on [LinkedIn](https://www.linkedin.com/in/felix-kaboto).
 
